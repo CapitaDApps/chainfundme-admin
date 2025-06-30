@@ -15,7 +15,7 @@ export default function Notify({
   duration: string;
 }) {
   return (
-    <div className="flex last:border-none items-start gap-5 p-6 border-b border-contrast-border">
+    <div className="flex last:border-none items-start gap-3 md:gap-5 p-3 md:p-6 border-b border-contrast-border">
       <Image src={img} width={25} height={25} alt="img" />
       <div className="space-y-3">
         <div className="space-y-1.5">
