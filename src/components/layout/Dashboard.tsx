@@ -42,7 +42,7 @@ export default function Dashboard() {
     },
   ];
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 pt-4 px-1.5 lg:px-4" >
+    <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-2 pt-4 px-1.5 lg:px-4" >
       {dash.map((item) => (
         <div key={item.name} className="space-y-2.5 max-w-[200px]  border border-[#2A2A2A] p-2.5 rounded-lg">
           <div className="flex text-xs md:text-sm text-white justify-between items-center">

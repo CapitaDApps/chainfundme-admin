@@ -4,7 +4,7 @@ import MobileSidebar from "@/components/layout/MobileSidebar";
 
 export default function MobileHeader() {
   return (
-    <div className="bg-[#121212] flex items-center justify-between py-2 w-full z-30 fixed">
+    <div className="bg-[#121212] flex items-center justify-between py-3.5 w-full z-30 fixed">
       
       <div className="flex items-center gap-1  px-2">
         <Image width={30} height={30} alt="theme" src={`/chain-light.png`} />

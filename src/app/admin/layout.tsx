@@ -37,7 +37,7 @@ export default function RootLayout({
           <div className="block lg:hidden">
             <MobileHeader />
           </div>
-          <div className="flex flex-col pt-16 lg:pt-8   no-scrollbar  overflow-x-hidden overflow-y-scroll relative h-screen  min-w-0 px-3 md:px-6 py-5">
+          <div className="flex flex-col pt-20 lg:pt-8   no-scrollbar  overflow-x-hidden overflow-y-scroll relative h-screen  min-w-0 px-3 md:px-6 py-5">
             {children}
             <div className="py-5"/>
           </div>
